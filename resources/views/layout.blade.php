@@ -44,14 +44,14 @@
                                 <li><a class="dropdown-item" href="#">Anglais</a></li>
                             </ul>
                         </li>
-                       
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="container my-4">
+    <!-- Responsive container that adjusts based on screen size -->
+    <main class="container-lg my-4">
         @if(session('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 {{ session('success') }}
