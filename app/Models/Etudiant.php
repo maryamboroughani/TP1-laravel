@@ -19,7 +19,7 @@ class Etudiant extends Model
         'ville_id'
     ];
 
-      // Define the relationship to Ville
+      // the relationship to Ville
       public function ville()
       {
           return $this->belongsTo(Ville::class);

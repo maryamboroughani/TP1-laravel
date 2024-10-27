@@ -50,9 +50,6 @@ class EtudiantController extends Controller
         return redirect()->route('etudiants.show', $etudiant->id)->withSuccess('Étudiant créé avec succès !');
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(Etudiant $etudiant)
     {
         // Show details of a specific Etudiant
