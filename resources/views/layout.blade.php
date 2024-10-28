@@ -44,6 +44,9 @@
                                 <li><a class="dropdown-item" href="#">Anglais</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Se Déconnecter</a>
+                        </li>
                     </ul>
                 </div>
             </div>
